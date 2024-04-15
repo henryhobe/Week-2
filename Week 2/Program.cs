@@ -1,4 +1,4 @@
-﻿Console.WriteLine("Enter your age: ");
+Console.WriteLine("Enter your age: ");
 
 string userAge = Console.ReadLine();
 
@@ -8,7 +8,7 @@ bool isageNumber = Int32.TryParse(userAge out, userAgeNum);
 
 console.WriteLine($"Parse result {isageNumber}. User is {userAgeNum} years old");
 
-if(isageNumber )
+if(isageNumber)
 {
     if (userAgeNum >= 13)
     {
