@@ -8,18 +8,19 @@ bool isageNumber = Int32.TryParse(userAge out, userAgeNum);
 
 console.WriteLine($"Parse result {isageNumber}. User is {userAgeNum} years old");
 
-if(isageNumber)
+if (isageNumber)
 {
     if (userAgeNum >= 13)
     {
-        Console.WriteLine("Welcome to Instagram.");
+        Console.WriteLine("Welcome to instagram.");
     }
     else
     {
-        Console.WriteLine("You are too young to use Instagram.");
+        Console.WriteLine("You are too young to use instagram.");
     }
 }
 else
 {
     Console.WriteLine("Could not read your age");
 }
+,
